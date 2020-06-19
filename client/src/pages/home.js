@@ -55,7 +55,7 @@ class Home extends Component {
 
     const { countries, regions } = this.state;
 
-    console.log('regions: ', countries)
+
 
     return (
       <div className="App">
