@@ -64,7 +64,7 @@ class Home extends Component {
           <Dropdown regions={regions} filterByRegion={this.filterByRegion} setRegions={this.setRegions} />
         </div>
         <div className="countriesContainer">
-          <Countries countries={this.state.countries} selectCountry={this.selectCountry} />
+          <Countries countries={this.state.countries} />
         </div>
       </div>
     );
