@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+  .searchBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15px;
+    max-width: auto;
+  }
+  .searchBar .searchBox {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+  }
+  .searchBar .searchBox:focus {
+    outline: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .searchBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 15px;
+    margin: 0 auto;
+    min-width: 450px;
+    width: 100%;
+    max-width: 900px;
+  }
+  .searchBar .searchBox {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+  }
+  .searchBar .searchBox:focus {
+    outline: none;
+  }
+}
+/*# sourceMappingURL=search.css.map */
