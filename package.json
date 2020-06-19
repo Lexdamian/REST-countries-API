@@ -1,0 +1,22 @@
+{
+  "name": "rest-countries-api",
+  "version": "1.0.0",
+  "description": "rest countries api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexdamian/REST-countries-API.git"
+  },
+  "author": "Alexandru Damian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lexdamian/REST-countries-API/issues"
+  },
+  "homepage": "https://github.com/Lexdamian/REST-countries-API#readme"
+}
