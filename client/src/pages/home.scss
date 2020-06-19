@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    .App {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      max-width: auto;
+      background-color: #f6f6f6;  
+    
+      .countriesContainer {
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .App {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: auto;
+      background-color: #f6f6f6; 
+    
+      .countriesContainer {
+        background-color: #f6f6f6;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 900px;
+        height: 100%;
+      }
+    }
+  }
