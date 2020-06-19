@@ -6,6 +6,11 @@ import './selectedCountry.css'
 
 export class SelectedCountry extends Component {
 
+    state = {
+        country: []
+    }
+
+
     componentDidMount() {
         const { name } = this.props.match.params;
 
@@ -14,10 +19,7 @@ export class SelectedCountry extends Component {
             .then(data => this.setState({ country: data[0] }))
     }
 
-    state = {
-        country: []
-    }
-
+ 
 
     render() {
 
@@ -26,8 +28,6 @@ export class SelectedCountry extends Component {
         const { currencies = [] } = country;
         const { topLevelDomain = [] } = country;
         const { borders = [] } = country;
-
-        console.log(country)
 
         return (
             <div className="selectedCountryContainer">
