@@ -1,0 +1,483 @@
+@media only screen and (max-width: 600px) {
+  .selectedCountryContainer {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .selectedCountryContainer .navButton {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    -webkit-box-shadow: 0 1px 2px #5e5d5b;
+            box-shadow: 0 1px 2px #5e5d5b;
+  }
+  .selectedCountryContainer .navButton:focus {
+    outline: none;
+  }
+  .selectedCountryContainer .selectedCountryCard {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 1em;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 90%;
+    height: 20%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 600px;
+    max-height: 250px;
+    overflow: hidden;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper img {
+    width: auto;
+    height: auto;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryName {
+    width: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 3em;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn p {
+    font-weight: bold;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn span {
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .selectedCountryContainer {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .navButton {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    -webkit-box-shadow: 0 1px 2px #5e5d5b;
+            box-shadow: 0 1px 2px #5e5d5b;
+  }
+  .selectedCountryContainer .navButton:focus {
+    outline: none;
+  }
+  .selectedCountryContainer .selectedCountryCard {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    height: 50%;
+    max-height: 350px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 35%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper img {
+    width: 100%;
+    height: auto;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 55%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryName {
+    width: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    width: 50%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn p {
+    font-weight: bold;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn span {
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .selectedCountryContainer {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .navButton {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    -webkit-box-shadow: 0 1px 2px #5e5d5b;
+            box-shadow: 0 1px 2px #5e5d5b;
+  }
+  .selectedCountryContainer .navButton:focus {
+    outline: none;
+  }
+  .selectedCountryContainer .selectedCountryCard {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    height: 50%;
+    max-height: 350px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 35%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper img {
+    width: 100%;
+    height: auto;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 55%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryName {
+    width: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    width: 50%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn p {
+    font-weight: bold;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn span {
+    font-weight: normal;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .selectedCountryContainer {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .navButton {
+    background-color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    -webkit-box-shadow: 0 1px 2px #5e5d5b;
+            box-shadow: 0 1px 2px #5e5d5b;
+  }
+  .selectedCountryContainer .navButton:focus {
+    outline: none;
+  }
+  .selectedCountryContainer .selectedCountryCard {
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    height: 50%;
+    max-height: 350px;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 35%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 350px;
+  }
+  .selectedCountryContainer .selectedCountryCard .imageWrapper img {
+    width: 100%;
+    height: auto;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 55%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryName {
+    width: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    width: 50%;
+    height: 100%;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn p {
+    font-weight: bold;
+  }
+  .selectedCountryContainer .selectedCountryCard .infoContainer .countryInfo .infoColumn span {
+    font-weight: normal;
+  }
+}
+/*# sourceMappingURL=selectedCountry.css.map */
