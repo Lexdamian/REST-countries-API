@@ -47,10 +47,7 @@ class Home extends Component {
       fetch(`https://restcountries.eu/rest/v2/region/${region}`)
         .then(res => res.json())
         .then(data => this.setState({ countries: data }))
-    }
-
-
-
+      }
   }
 
 
