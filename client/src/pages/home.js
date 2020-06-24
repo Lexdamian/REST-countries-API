@@ -61,7 +61,7 @@ class Home extends Component {
       <div className="App">
         <div className="searchBar">
           <Search filteredcountries={this.props.filteredcountries} countries={countries} updateCountries={this.updateCountries} />
-          <Dropdown regions={regions} filterByRegion={this.filterByRegion} setRegions={this.setRegions} />
+          <Dropdown regions={regions} filterByRegion={this.filterByRegion} />
         </div>
         <div className="countriesContainer">
           <Countries countries={this.state.countries} />
