@@ -1,17 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class dropdown extends Component {
+const dropdown = ({ regions, filterByRegion }) => {
 
-    render() {
-        return (
-            <form>
-                <select name="regions" onChange={this.props.filterByRegion} >
-                    {this.props.regions.map(region =>
-                        <option value={region} key={region}>{region}</option>)}
-                </select>
-            </form>
-        )
-    }
+    return (
+        <form>
+            <select name="regions" onChange={filterByRegion} >
+                {regions.map(region =>
+                    <option value={region} key={region}>{region}</option>)}
+            </select>
+        </form>
+    )
+
 }
 
 export default dropdown
